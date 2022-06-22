@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: public.ecr.aws/v6r3s0v8/health-dept:44
         ports:
         - containerPort: 3000
         
